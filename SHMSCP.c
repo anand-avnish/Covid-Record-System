@@ -101,7 +101,7 @@ void add()
 {
     printf("\n\n");
     printf("\t\tAlready data inputed on the database =%d\n\n",num);//how many inputs
-    printf("\t\tHow many entry do you want to add=\n\t\t");
+    printf("\t\tHow many entry do you want to add= \t\t");
     scanf("%d",&n);
     sum=n+num;
 
@@ -122,7 +122,7 @@ void add()
         printf("\t\tEnter cabin no = ");
         scanf("%d",&x[i].cabin);
         fflush(stdin);
-        printf("\t\tEnter phone number = ");
+        printf("\t\tEnter patient's phone number = ");
         scanf("%d",&x[i].phone);
         fflush(stdin);
         printf("\n");
