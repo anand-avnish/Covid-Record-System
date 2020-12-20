@@ -152,7 +152,7 @@ void edit()
     fflush(stdin);
     printf("\t\tWhat do you want to edit ?\n");
     printf("\t\tEnter option\n");
-    printf("\t\t1.Name\n\t\t2.Age\n\t\t3.Cabin\n\t\t4.Phone no.\n");
+    printf("\t\t1.Name\n\t\t2.Disease\n\t\t3.Age\n\t\t4.Cabin\n\t\t5.Phone no.\n");
     printf("\t\tOption=");
     scanf("%d",&q);//option
     if(q<=4)
@@ -168,27 +168,27 @@ void edit()
                 gets(x[p].name);
 
             }
-            // else if(q==2)
-            // {
-            //     fflush(stdin);
-            //     printf("\t\tEnter the new Disease=");
-            //     gets(x[p].disease);
-            // }
             else if(q==2)
+            {
+                fflush(stdin);
+                printf("\t\tEnter the new Disease=");
+                gets(x[p].disease);
+            }
+            else if(q==3)
             {
                 fflush(stdin);
                 printf("\t\tEnter the new Age=");
                 scanf("%d",&x[p].age);
             }
 
-            else if(q==3)
+            else if(q==4)
             {
                 fflush(stdin);
                 printf("\t\tEnter the new Cabin no=");
                 scanf("%d",&x[p].cabin);
             }
 
-            else if(q==4)
+            else if(q==5)
             {
                 fflush(stdin);
                 printf("\t\tEnter the new Phone no =");
