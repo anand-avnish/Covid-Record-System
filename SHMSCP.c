@@ -20,7 +20,13 @@ int main()
     system("COLOR 74");
 	read();
     int c,i,q;
-    printf("Simple Hospital Management System\n");
+    printf("\t\t*************************************************");
+    printf("\n\t\t  *** WELCOME TO COVID RECORD SYSTEM ***");
+    printf("\n\t\t  ***          AAA HOSPITAL          ***");
+    printf("\n\t\t  ***           COVID WARD           ***");
+    printf("\n\t\t  ***           1st FLOOR            ***");
+    printf("\n\t\t*************************************************");
+    printf("\n\n\n\n\n\n\n");
     int m,n;
 //making out the pattern
     
@@ -51,7 +57,14 @@ int main()
     while(c!=6)
     {
 
-        printf("**Enter your choice**\n\n1. Add Information\n2. View Information\n3. Search\n4. Edit Information\n5. Delete Information\n6. Exit\n\nOption=");
+        printf("\t\t**Enter your choice**
+            \n\n\t\t1. Add Information
+            \n\t\t2. View Information
+            \n\t\t3. Search
+            \n\t\t4. Edit Information
+            \n\t\t5. Delete Information
+            \n\t\t6. Exit
+            \n\n\t\tOption=");
         scanf("%d",&c);//choice for option
         fflush(stdin);//making it clear
         if(c==1)//add
