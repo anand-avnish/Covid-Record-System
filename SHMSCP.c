@@ -210,7 +210,7 @@ void search()
     int s,h,f;
     char u[100];
     printf("\t\tBy what do you want to search ?\n");
-    printf("\t\t1.Serial no.\n\t\t2.Name\n\t\t3.Disease\n\t\t4.Cabin no.\n\t\t5.Phone no.\n\t\t6.Age\n\n\t\tOption = ");
+    printf("\t\t1.Serial no.\n\t\t2.Name\n\t\t3.Cabin no.\n\t\t4.Phone no.\n\t\t5.Age\n\n\t\tOption = ");
     scanf("%d",&h);
     if(h==1)
     {
@@ -259,36 +259,36 @@ void search()
 
 
     }
+    // else if(h==3)
+    // {
+    //     int f=1;
+    //     fflush(stdin);
+    //     printf("\t\tEnter Disease = ");
+    //     gets(u);
+    //     fflush(stdin);
+    //     for(g=0; g<num; g++)
+    //     {
+    //         if(strcmp(u,x[g].disease)==0)
+    //         {
+    //             printf("\n");
+    //             printf("\t\tSerial Number=%d\n",g);
+    //             printf("\t\tName = ");
+    //             puts(x[g].name);
+    //             printf("\t\tDisease = ");
+    //             puts(x[g].disease);
+    //             printf("\t\tCabin no = %d\n\t\tPhone number = 0%d\n\t\tAge = %d",x[g].cabin,x[g].phone,x[g].age);
+    //             printf("\n\n");
+    //             f=0;
+    //         }
+
+
+    //     }
+    //     if(f==1)
+    //         printf("\n\t\tNot Found\n");
+
+
+    // }
     else if(h==3)
-    {
-        int f=1;
-        fflush(stdin);
-        printf("\t\tEnter Disease = ");
-        gets(u);
-        fflush(stdin);
-        for(g=0; g<num; g++)
-        {
-            if(strcmp(u,x[g].disease)==0)
-            {
-                printf("\n");
-                printf("\t\tSerial Number=%d\n",g);
-                printf("\t\tName = ");
-                puts(x[g].name);
-                printf("\t\tDisease = ");
-                puts(x[g].disease);
-                printf("\t\tCabin no = %d\n\t\tPhone number = 0%d\n\t\tAge = %d",x[g].cabin,x[g].phone,x[g].age);
-                printf("\n\n");
-                f=0;
-            }
-
-
-        }
-        if(f==1)
-            printf("\n\t\tNot Found\n");
-
-
-    }
-    else if(h==4)
     {
         int f=1;
         printf("\t\tEnter Cabin number = ");
@@ -313,7 +313,7 @@ void search()
             printf("\t\tNot Found\n\n");
 
     }
-    else if(h==5)
+    else if(h==4)
     {
         int f=1;
         printf("\t\tEnter Phone number = ");
@@ -337,7 +337,7 @@ void search()
         if(f==1)
             printf("\t\tNot Found");
     }
-    else if(h==6)
+    else if(h==5)
     {
         int f=1;
         printf("\t\tEnter Age = ");
